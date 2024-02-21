@@ -17,7 +17,6 @@ text_rect = text.get_rect(center=(800/2, 600/2))
 quack_sound = pygame.mixer.Sound('sounds/quack.wav')
 trampoline_sound = pygame.mixer.Sound('sounds/trampoline.wav')
 game_over_sound = pygame.mixer.Sound("sounds/mixkit-arcade-retro-game-over-213.wav")
-# pygame.mixer.music.play(-1)
 
 game_over_phon = pygame.image.load("game_over_phon.png")
 game_over_phon = pygame.transform.scale(game_over_phon, (800, 600))
